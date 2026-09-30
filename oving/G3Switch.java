@@ -1,0 +1,16 @@
+public class G3Switch {
+    public static void main(String[] args) {
+        for (int i = 1; i <= 20; i++) {
+            switch (i) {
+                case 1:
+                    System.out.println("A");
+                    break;
+                case 2:
+                    System.out.println("B");
+                    break;
+                default:
+                    System.out.println("C");
+            }
+        }
+    }
+}
